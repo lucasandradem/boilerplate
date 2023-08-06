@@ -1,7 +1,11 @@
+'use client'
+import GlobalStyles from 'styles/global'
+
 export default function Home() {
   return (
-    <main>
-      <h1>oi</h1>
-    </main>
+    <>
+      <GlobalStyles />
+      <h1>Boilerplate</h1>
+    </>
   )
 }
